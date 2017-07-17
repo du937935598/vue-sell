@@ -1,0 +1,59 @@
+border-1px($color)
+	position relative
+	&:after
+		display block
+		position absolute
+		left 0px
+		bottom 0px
+		width 100%
+		border-top 1px solid $color
+		content ' '
+
+w($value)
+	width unit($value/37.5,rem)
+h($value)
+	height unit($value/37.5,rem)
+top($value)
+	top unit($value/37.5,rem)
+left($value)
+	left unit($value/37.5,rem)
+right($value)
+	right unit($value/37.5,rem)
+bottom($value)
+	bottom unit($value/37.5,rem)
+b($color)
+	background $color
+ml($value)
+	margin-left unit($value/37.5,rem)
+mr($value)
+	margin-right unit($value/37.5,rem)
+mt($value)
+	margin-top unit($value/37.5,rem)
+mb($value)
+	margin-bottom unit($value/37.5,rem)
+margins($value1,$value2,$value3,$value4)
+	margin unit($value1/37.5,rem) unit($value2/37.5,rem) unit($value3/37.5,rem) unit($value4/37.5,rem)
+pl($value)
+	padding-left unit($value/37.5,rem)
+pr($value)
+	padding-right unit($value/37.5,rem)
+pt($value)
+	padding-top unit($value/37.5,rem)
+pb($value)
+	padding-bottom unit($value/37.5,rem)
+paddings($value1,$value2,$value3,$value4)
+	padding unit($value1/37.5,rem) unit($value2/37.5,rem) unit($value3/37.5,rem) unit($value4/37.5,rem)
+lh($value)
+	line-height unit($value/37.5,rem)
+fs($value)
+	font-size unit($value/37.5,rem)
+bg-image($url)
+	background-image url($url+'@3x.png')
+bor($value)
+	border-radius unit($value/37.5,rem)
+left($value)
+	left unit($value/37.5,rem)
+right($value)
+	right unit($value/37.5,rem)
+bottom($value)
+	bottom unit($value/37.5,rem)

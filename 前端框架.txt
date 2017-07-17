@@ -1,0 +1,31 @@
+npm init //初始化
+npm install -g vue-cli //安装vue-cli
+vue //查看
+vue list
+vue init webpack sell //cdm
+(name:sell,des..:sell app,setup...karma+mocha:no,setup...nightwaatch:no)
+cd sell //查看
+ls 
+ll -a
+npm install(cmd)
+ll -a
+cd node_modules/
+ls
+cd ..
+ls
+(vue-E/sell)
+npm run dev(启动服务)
+
+sticky footers(一种css框架，一般用于弹出框)
+
+添加下啦刷新的依赖文件
+直接在'package.json'中添加"better-scroll":"^0.1.15"
+
+打包
+npm run build
+
+关掉生产调试然后新建一个生产的（dist）测试服务
+prod.server.js
+
+然后运行
+node prod.server.js
